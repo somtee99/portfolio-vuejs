@@ -4,7 +4,7 @@
     <div class="data"><strong>E-mail:</strong> {{ user.email }}</div>
     <div class="data"><strong>Phone:</strong> {{ user.phone }}</div>
     <div class="data"><strong>City:</strong> {{ user.city }}</div>
-    <div class="data"><strong>Languages:</strong> {{ user.lang }}</div>
+    <div class="data"><strong>Language:</strong> {{ user.lang }}</div>
     <SocialBar :links="links"/>
   </div>
 </template>
