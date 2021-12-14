@@ -84,7 +84,7 @@ $linear: map-get($colors, dark);
 }
 }
 
-/deep/ .text-wrapper {
+.text-wrapper {
   &:after {
     border-bottom: 1px solid map-get($colors, dark);
   }
